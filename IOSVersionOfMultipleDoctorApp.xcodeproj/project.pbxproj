@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0057BDBE07AB1670B99ABC6D /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68DA7F55709069F01BC5176 /* PrimaryButton.swift */; };
+		0A45D7CEE3DA10EE67B407F7 /* PlanService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFBA667B910E5B8388E341C /* PlanService.swift */; };
+		0DAA779EEC7379C7FF6FA0A3 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = E399C2B1840517D9441AC5EA /* DateFormatting.swift */; };
+		0E7426618D3B0D3D1744D475 /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC3F57EFAC3478C90A933EC /* BackdropView.swift */; };
+		1807A6A06D19AB3573F2BA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EB0812A0E1D6C981BD1147 /* Assets.xcassets */; };
+		1BE276CE261FD859A0816B65 /* SelectionChips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45435E8439E48E6D32252F93 /* SelectionChips.swift */; };
+		318770AD14D05450D7F43AFC /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EAC9BF7328A30BB640F6F8 /* AppState.swift */; };
+		35731160DB97A01310A713FF /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BFF89BA51BC520D861C6C9 /* AppContainer.swift */; };
+		4EC99A8C04E2A19F0C92C7D0 /* MemberModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C57C7EA0F26219C281483C8 /* MemberModels.swift */; };
+		548F58146DE7C810269E98C6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1583F4E42815CD8A9B9C19CF /* HomeView.swift */; };
+		60636C969F3D2D96FA188AA5 /* LocalDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351EDA4D70A156A768A22A5 /* LocalDatabase.swift */; };
+		61970D388E381F04EB319CAA /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D83A5980A468F8591778AB4 /* AppTheme.swift */; };
+		624FBA01FAB052EE0AE5A9A6 /* TrainerLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3D1CDCC7B902ED9555C24A /* TrainerLoginView.swift */; };
+		794CB85824D3EF729A72F2BB /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F243BA372408AC70CB040D1 /* RootView.swift */; };
+		7E2F7EFFA57B9E6CD6CF89BA /* ProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA2A40491468BF16101032 /* ProfileModels.swift */; };
+		80D11871A888056BDA151ED5 /* PricingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E8C0C52842829B5DFBDA0E /* PricingView.swift */; };
+		816E94B0A373DAD2D3773BA3 /* TrainerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AD42818C5148A2C1D7AAAF /* TrainerService.swift */; };
+		85C3E11003F78F73A0F00C14 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5597BC766CB06E1638879D57 /* AppError.swift */; };
+		8D4DB959B4A92DABA51CF3DB /* AppSeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF207BA4153BBF480319C666 /* AppSeedData.swift */; };
+		944A3F896D0B6C34C45C6691 /* MemberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26271A92671710174EE4AA76 /* MemberService.swift */; };
+		9FA4EBC6C6CF5667CD38995F /* PlanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F41CB401E08AC42EE09142A /* PlanModels.swift */; };
+		A243FF31AB465E53A8BCE5F9 /* AppCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2F4C88B7F57263CD52857D /* AppCard.swift */; };
+		A7D8789C5B388562EF859ECA /* PlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DEDE1366D96D6E993469F1 /* PlanView.swift */; };
+		A8630D6790D4EC4A861A9836 /* TrainerClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5C2E31A21A0478791C05EF /* TrainerClientsView.swift */; };
+		B0E7D014DAB452D667C3255D /* IOSVersionOfMultipleDoctorAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77406E1C6A75B40CBC9E2E1D /* IOSVersionOfMultipleDoctorAppApp.swift */; };
+		B56FA84F979A792439565C79 /* PlannerEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAACA9EA5335D4CB58B9D1DE /* PlannerEngine.swift */; };
+		D23663ECEE1028E2D682816A /* MemberLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DC277A68ED8A1085AFEC91 /* MemberLoginView.swift */; };
+		F1AFEE6EB1CAFB8395E3D1E2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E4F325B2D02FD542B76B2D /* OnboardingView.swift */; };
+		F227001E5BFB8FB87E900CD5 /* MemberDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7486F4C999A18C42AC1720F8 /* MemberDashboardView.swift */; };
+		F3C1F95DE8FA523F1C88EDB0 /* OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A547354E2F345678452D303 /* OnboardingService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1583F4E42815CD8A9B9C19CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		26271A92671710174EE4AA76 /* MemberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberService.swift; sourceTree = "<group>"; };
+		31E4F325B2D02FD542B76B2D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		3A547354E2F345678452D303 /* OnboardingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingService.swift; sourceTree = "<group>"; };
+		4351EDA4D70A156A768A22A5 /* LocalDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDatabase.swift; sourceTree = "<group>"; };
+		45435E8439E48E6D32252F93 /* SelectionChips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionChips.swift; sourceTree = "<group>"; };
+		4F41CB401E08AC42EE09142A /* PlanModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanModels.swift; sourceTree = "<group>"; };
+		5597BC766CB06E1638879D57 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		55DC277A68ED8A1085AFEC91 /* MemberLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberLoginView.swift; sourceTree = "<group>"; };
+		56BA2A40491468BF16101032 /* ProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModels.swift; sourceTree = "<group>"; };
+		5C57C7EA0F26219C281483C8 /* MemberModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberModels.swift; sourceTree = "<group>"; };
+		6F243BA372408AC70CB040D1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		7486F4C999A18C42AC1720F8 /* MemberDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberDashboardView.swift; sourceTree = "<group>"; };
+		76EB0812A0E1D6C981BD1147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77406E1C6A75B40CBC9E2E1D /* IOSVersionOfMultipleDoctorAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSVersionOfMultipleDoctorAppApp.swift; sourceTree = "<group>"; };
+		84AD42818C5148A2C1D7AAAF /* TrainerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerService.swift; sourceTree = "<group>"; };
+		9B5C2E31A21A0478791C05EF /* TrainerClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerClientsView.swift; sourceTree = "<group>"; };
+		9D83A5980A468F8591778AB4 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		9EC3F57EFAC3478C90A933EC /* BackdropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackdropView.swift; sourceTree = "<group>"; };
+		AAACA9EA5335D4CB58B9D1DE /* PlannerEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerEngine.swift; sourceTree = "<group>"; };
+		AAFBA667B910E5B8388E341C /* PlanService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanService.swift; sourceTree = "<group>"; };
+		AB2F4C88B7F57263CD52857D /* AppCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCard.swift; sourceTree = "<group>"; };
+		B5DEDE1366D96D6E993469F1 /* PlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanView.swift; sourceTree = "<group>"; };
+		B7888F545033A13FB48C0104 /* IOSVersionOfMultipleDoctorApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = IOSVersionOfMultipleDoctorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BFF89BA51BC520D861C6C9 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		C68DA7F55709069F01BC5176 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		CA3D1CDCC7B902ED9555C24A /* TrainerLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerLoginView.swift; sourceTree = "<group>"; };
+		D6EAC9BF7328A30BB640F6F8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DF207BA4153BBF480319C666 /* AppSeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSeedData.swift; sourceTree = "<group>"; };
+		E0E8C0C52842829B5DFBDA0E /* PricingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricingView.swift; sourceTree = "<group>"; };
+		E399C2B1840517D9441AC5EA /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1F061802933DD4D41F79C0C0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1583F4E42815CD8A9B9C19CF /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		37A517C440DA82D2EEF6C77A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				76EB0812A0E1D6C981BD1147 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		56BF940EDB42359FCA62458A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5597BC766CB06E1638879D57 /* AppError.swift */,
+				E399C2B1840517D9441AC5EA /* DateFormatting.swift */,
+				5C57C7EA0F26219C281483C8 /* MemberModels.swift */,
+				4F41CB401E08AC42EE09142A /* PlanModels.swift */,
+				56BA2A40491468BF16101032 /* ProfileModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57C018ED5231C33E51618ACE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				1F061802933DD4D41F79C0C0 /* Home */,
+				5B60200144427171DE7D4FF9 /* Member */,
+				CC3629795ADFB368DFB8B4FB /* Onboarding */,
+				C19AADE54C858966E2C578AA /* Plans */,
+				CDB355F4E5F96757DCAC7BFC /* Pricing */,
+				E46E9C251EBDD02D1CAFDC40 /* Trainer */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5B60200144427171DE7D4FF9 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				7486F4C999A18C42AC1720F8 /* MemberDashboardView.swift */,
+				55DC277A68ED8A1085AFEC91 /* MemberLoginView.swift */,
+				26271A92671710174EE4AA76 /* MemberService.swift */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		69729CBE6B41F760C2291583 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C1BFF89BA51BC520D861C6C9 /* AppContainer.swift */,
+				D6EAC9BF7328A30BB640F6F8 /* AppState.swift */,
+				77406E1C6A75B40CBC9E2E1D /* IOSVersionOfMultipleDoctorAppApp.swift */,
+				6F243BA372408AC70CB040D1 /* RootView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6C5EE23349476CAC535470F2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				DF207BA4153BBF480319C666 /* AppSeedData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		775652EA12E855FA20F7EF44 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F22239C8F599FB983DE7CDB6 /* Components */,
+				6C5EE23349476CAC535470F2 /* Data */,
+				56BF940EDB42359FCA62458A /* Models */,
+				F445760F4C650AA8630ACDB3 /* Storage */,
+				E489FF23523B7070D68A3AC5 /* Theme */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		8ED934AC9545F68720045814 = {
+			isa = PBXGroup;
+			children = (
+				69729CBE6B41F760C2291583 /* App */,
+				57C018ED5231C33E51618ACE /* Features */,
+				37A517C440DA82D2EEF6C77A /* Resources */,
+				775652EA12E855FA20F7EF44 /* Shared */,
+				9D9F027E8AC5659DD39A53B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9F027E8AC5659DD39A53B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7888F545033A13FB48C0104 /* IOSVersionOfMultipleDoctorApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C19AADE54C858966E2C578AA /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				AAACA9EA5335D4CB58B9D1DE /* PlannerEngine.swift */,
+				AAFBA667B910E5B8388E341C /* PlanService.swift */,
+				B5DEDE1366D96D6E993469F1 /* PlanView.swift */,
+			);
+			path = Plans;
+			sourceTree = "<group>";
+		};
+		CC3629795ADFB368DFB8B4FB /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				3A547354E2F345678452D303 /* OnboardingService.swift */,
+				31E4F325B2D02FD542B76B2D /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CDB355F4E5F96757DCAC7BFC /* Pricing */ = {
+			isa = PBXGroup;
+			children = (
+				E0E8C0C52842829B5DFBDA0E /* PricingView.swift */,
+			);
+			path = Pricing;
+			sourceTree = "<group>";
+		};
+		E46E9C251EBDD02D1CAFDC40 /* Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				9B5C2E31A21A0478791C05EF /* TrainerClientsView.swift */,
+				CA3D1CDCC7B902ED9555C24A /* TrainerLoginView.swift */,
+				84AD42818C5148A2C1D7AAAF /* TrainerService.swift */,
+			);
+			path = Trainer;
+			sourceTree = "<group>";
+		};
+		E489FF23523B7070D68A3AC5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				9D83A5980A468F8591778AB4 /* AppTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		F22239C8F599FB983DE7CDB6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F4C88B7F57263CD52857D /* AppCard.swift */,
+				9EC3F57EFAC3478C90A933EC /* BackdropView.swift */,
+				C68DA7F55709069F01BC5176 /* PrimaryButton.swift */,
+				45435E8439E48E6D32252F93 /* SelectionChips.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F445760F4C650AA8630ACDB3 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				4351EDA4D70A156A768A22A5 /* LocalDatabase.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29B01DFA06453F988531091A /* IOSVersionOfMultipleDoctorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D7D1DAE767123BB3EEAAA24 /* Build configuration list for PBXNativeTarget "IOSVersionOfMultipleDoctorApp" */;
+			buildPhases = (
+				C8D7F092B130663F019CCDCA /* Sources */,
+				EFD73A4E2A51086B1FDFE620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSVersionOfMultipleDoctorApp;
+			packageProductDependencies = (
+			);
+			productName = IOSVersionOfMultipleDoctorApp;
+			productReference = B7888F545033A13FB48C0104 /* IOSVersionOfMultipleDoctorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863E4149A06684B2306E5D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					29B01DFA06453F988531091A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AAFF6BD074632B23CE09D91E /* Build configuration list for PBXProject "IOSVersionOfMultipleDoctorApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8ED934AC9545F68720045814;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9D9F027E8AC5659DD39A53B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29B01DFA06453F988531091A /* IOSVersionOfMultipleDoctorApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD73A4E2A51086B1FDFE620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1807A6A06D19AB3573F2BA3F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D7F092B130663F019CCDCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A243FF31AB465E53A8BCE5F9 /* AppCard.swift in Sources */,
+				35731160DB97A01310A713FF /* AppContainer.swift in Sources */,
+				85C3E11003F78F73A0F00C14 /* AppError.swift in Sources */,
+				8D4DB959B4A92DABA51CF3DB /* AppSeedData.swift in Sources */,
+				318770AD14D05450D7F43AFC /* AppState.swift in Sources */,
+				61970D388E381F04EB319CAA /* AppTheme.swift in Sources */,
+				0E7426618D3B0D3D1744D475 /* BackdropView.swift in Sources */,
+				0DAA779EEC7379C7FF6FA0A3 /* DateFormatting.swift in Sources */,
+				548F58146DE7C810269E98C6 /* HomeView.swift in Sources */,
+				B0E7D014DAB452D667C3255D /* IOSVersionOfMultipleDoctorAppApp.swift in Sources */,
+				60636C969F3D2D96FA188AA5 /* LocalDatabase.swift in Sources */,
+				F227001E5BFB8FB87E900CD5 /* MemberDashboardView.swift in Sources */,
+				D23663ECEE1028E2D682816A /* MemberLoginView.swift in Sources */,
+				4EC99A8C04E2A19F0C92C7D0 /* MemberModels.swift in Sources */,
+				944A3F896D0B6C34C45C6691 /* MemberService.swift in Sources */,
+				F3C1F95DE8FA523F1C88EDB0 /* OnboardingService.swift in Sources */,
+				F1AFEE6EB1CAFB8395E3D1E2 /* OnboardingView.swift in Sources */,
+				9FA4EBC6C6CF5667CD38995F /* PlanModels.swift in Sources */,
+				0A45D7CEE3DA10EE67B407F7 /* PlanService.swift in Sources */,
+				A7D8789C5B388562EF859ECA /* PlanView.swift in Sources */,
+				B56FA84F979A792439565C79 /* PlannerEngine.swift in Sources */,
+				80D11871A888056BDA151ED5 /* PricingView.swift in Sources */,
+				0057BDBE07AB1670B99ABC6D /* PrimaryButton.swift in Sources */,
+				7E2F7EFFA57B9E6CD6CF89BA /* ProfileModels.swift in Sources */,
+				794CB85824D3EF729A72F2BB /* RootView.swift in Sources */,
+				1BE276CE261FD859A0816B65 /* SelectionChips.swift in Sources */,
+				A8630D6790D4EC4A861A9836 /* TrainerClientsView.swift in Sources */,
+				624FBA01FAB052EE0AE5A9A6 /* TrainerLoginView.swift in Sources */,
+				816E94B0A373DAD2D3773BA3 /* TrainerService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D80DBB136894955C7123926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Multiple Doctor App";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robusthealth.multidoctorios;
+				PRODUCT_NAME = IOSVersionOfMultipleDoctorApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F72FA1181D17679C225F914 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Multiple Doctor App";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.robusthealth.multidoctorios;
+				PRODUCT_NAME = IOSVersionOfMultipleDoctorApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		861B091BE297D718A981F056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		D435389B752BA4A785C89D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D7D1DAE767123BB3EEAAA24 /* Build configuration list for PBXNativeTarget "IOSVersionOfMultipleDoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F72FA1181D17679C225F914 /* Debug */,
+				1D80DBB136894955C7123926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AAFF6BD074632B23CE09D91E /* Build configuration list for PBXProject "IOSVersionOfMultipleDoctorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D435389B752BA4A785C89D62 /* Debug */,
+				861B091BE297D718A981F056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863E4149A06684B2306E5D24 /* Project object */;
+}
